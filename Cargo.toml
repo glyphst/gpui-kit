@@ -48,11 +48,11 @@ gpui-wry = { path = "crates/webview", version = "0.6.0" }
 gpui-component-shell = { path = "crates/component-shell", version = "0.6.0" }
 story = { path = "crates/story" }
 
-gpui = { version = "0.2.2", git = "https://github.com/glyphst/zed", rev = "19da5cb79f5698ed02da0787f7f968386e349553", features = ["profiler"] }
-gpui_platform = { git = "https://github.com/glyphst/zed", rev = "19da5cb79f5698ed02da0787f7f968386e349553", features = ["font-kit", "x11", "wayland", "runtime_shaders"] }
-gpui_web = { git = "https://github.com/glyphst/zed", rev = "19da5cb79f5698ed02da0787f7f968386e349553" }
-gpui_macros = { version = "0.1.0", git = "https://github.com/glyphst/zed", rev = "19da5cb79f5698ed02da0787f7f968386e349553" }
-reqwest_client = { git = "https://github.com/glyphst/zed", rev = "19da5cb79f5698ed02da0787f7f968386e349553" }
+gpui = { version = "0.2.2", git = "https://github.com/glyphst/zed", rev = "04a79b674e6c244b1bbf4aa57e7ab2ae28345be0", features = ["profiler"] }
+gpui_platform = { git = "https://github.com/glyphst/zed", rev = "04a79b674e6c244b1bbf4aa57e7ab2ae28345be0", features = ["font-kit", "x11", "wayland", "runtime_shaders"] }
+gpui_web = { git = "https://github.com/glyphst/zed", rev = "04a79b674e6c244b1bbf4aa57e7ab2ae28345be0" }
+gpui_macros = { version = "0.1.0", git = "https://github.com/glyphst/zed", rev = "04a79b674e6c244b1bbf4aa57e7ab2ae28345be0" }
+reqwest_client = { git = "https://github.com/glyphst/zed", rev = "04a79b674e6c244b1bbf4aa57e7ab2ae28345be0" }
 sum-tree = { version = "0.2.0", package = "zed-sum-tree" }
 reqwest = { package = "zed-reqwest", git = "https://github.com/zed-industries/reqwest.git", rev = "33bc764aa15ff7b200bf7c93bd96e24878d53e14", default-features = false, features = [
     "charset",
